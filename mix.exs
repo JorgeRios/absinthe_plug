@@ -33,7 +33,7 @@ defmodule Absinthe.Plug.Mixfile do
 
   defp deps do
     [
-      {:plug, "~> 1.2"},
+      {:plug, github: "elixir-lang/plug"},
       {:absinthe, "~> 1.2.6"},
       {:poison, ">= 0.0.0", only: [:dev, :test]},
       {:ex_doc, "~> 0.14.0", only: :dev},
